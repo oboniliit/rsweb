@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../pic/15.jpg);
+  background-size: cover;  
+    font-family: sans-serif;
+}
+
+.h{
+  background-color: #111;
+  height: 120px;
+  width: cover;
+  color: #3D67B3;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.h1{
+  background-color: black;
+  position: middle;
+ margin-left: 50px;
+ margin-top: 50px;
+  color: #3D67B3;
+  font-style: italic;
+  font-size: 25px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+/*    z-index: 1;
+    top: 0;    */
+    left: 0;
+    background-color: #111;
+    opacity: 0.9;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #3D67B3;
+}
+
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+.icon {
+    padding: 10px;
+    background: white;
+    color: #3D67B3;
+    min-width: 50px;
+    text-align: center;
+    size:10px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+
+.login-box{
+    width: 700px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    top: 60%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}

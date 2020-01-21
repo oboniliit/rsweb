@@ -1,0 +1,34 @@
+
+
+
+table.center {
+    width:70%; 
+    margin-left:15%; 
+    margin-right:15%;
+    margin-top: 3%;
+  }  
+  
+  .back{
+  	background-color: lightblue;
+  	opacity: 0.8%;
+  }
+
+  .table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+	background-color: #3D67B3;
+}
+
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: white;
+}
+
+h1 {
+    background-color: lightblue;
+}
+
+.head{
+  padding-top: 100px;
+  color: black;
+  font-family: cursive;
+}
